@@ -23,7 +23,8 @@
             <div class="container">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">ELI</a>
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
+                    <div><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"></button></div>div
+                    <span><p>Logout error</p>p<span>
                         <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
                             class="icon-bar"></span><span class="icon-bar"></span>
                     </button>
