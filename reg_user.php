@@ -215,6 +215,16 @@ echo '<script type="text/javascript">';
 echo 'setTimeout(function () { swal("WOW!","Message!","error");';
  
 echo '}, 1000);</script>';
+<?php
+function RandImg($dir)
+{
+$images = glob($dir . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+$randomImage = $images[array_rand($images)];
+return $randomImage;
+}
+$the_image = RandImg('upload_icons/');
+echo $the_image;
+?>
  
 ?> -->
 </div>
